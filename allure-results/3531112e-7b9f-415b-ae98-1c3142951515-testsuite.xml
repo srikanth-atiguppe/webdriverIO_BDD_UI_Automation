@@ -1,0 +1,311 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646624454597' stop='1646624458234'>
+    <name>ANZ Home Loan Calculator: As an user, I can enter new values on How much could I borrow? page after calculating the borrowing power by clicking start over</name>
+    <title>ANZ Home Loan Calculator: As an user, I can enter new values on How much could I borrow? page after calculating the borrowing power by clicking start over</title>
+    <test-cases>
+        <test-case start='1646624454597' status='passed' stop='1646624454598'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624454598' status='passed' stop='1646624456096'>
+            <name>Given I am on the home loan borrowing page calculator</name>
+            <title>Given I am on the home loan borrowing page calculator</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646624454598' status='passed' stop='1646624456096'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5dca0751-1f07-4c89-aa2d-6d9d8050c058-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624456096' status='passed' stop='1646624458099'>
+            <name>When I enter details</name>
+            <title>When I enter details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458100' status='passed' stop='1646624458179'>
+            <name>And I select application type "&lt;Application Type>"</name>
+            <title>And I select application type "&lt;Application Type>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646624458105' status='passed' stop='1646624458119'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e57dcf3d-3ccd-4bde-863c-ec1364a73251-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='ed63ad3e-22bd-4e92-ac15-740a88a617f2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646624458123' status='passed' stop='1646624458179'>
+                    <name>POST /session/:sessionId/element/8e1b3f4d-bfd5-4c01-aa7e-e7f3b2d4a9a0/click</name>
+                    <title>POST /session/:sessionId/element/8e1b3f4d-bfd5-4c01-aa7e-e7f3b2d4a9a0/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458179' status='broken' stop='1646624458233'>
+            <name>And I enter number of dependents "&lt;No of dependents>"</name>
+            <title>And I enter number of dependents "&lt;No of dependents>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646624458180' status='passed' stop='1646624458184'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='da94bf90-781f-4fac-b2dc-074f12665b9f-attachment.json' type='application/json' size='83'/>
+                        <attachment title='Response' source='3748f506-3750-43c9-9c96-9ff743616f6e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646624458185' status='passed' stop='1646624458217'>
+                    <name>POST /session/:sessionId/element/ddc0631e-fa9e-497c-a58c-c58bcab07ba7/click</name>
+                    <title>POST /session/:sessionId/element/ddc0631e-fa9e-497c-a58c-c58bcab07ba7/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1646624458217' status='passed' stop='1646624458220'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='872620cf-9a2c-4304-a0c8-827bdb036c34-attachment.json' type='application/json' size='83'/>
+                        <attachment title='Response' source='56e70af2-a0d7-47f1-975f-ac07f708df7d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1646624458222' status='passed' stop='1646624458230'>
+                    <name>POST /session/:sessionId/element/ddc0631e-fa9e-497c-a58c-c58bcab07ba7/element</name>
+                    <title>POST /session/:sessionId/element/ddc0631e-fa9e-497c-a58c-c58bcab07ba7/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4e3edf51-fdba-48d4-b3ea-c73e6e778a5a-attachment.json' type='application/json' size='246'/>
+                        <attachment title='Response' source='374261f8-683b-4c9c-9396-2c9be39c6a55-attachment.json' type='application/json' size='1798'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Option with text "&lt;No of dependents>" not found.</message>
+                <stack-trace>Error: Option with text "&lt;No of dependents>" not found.
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.&lt;anonymous> (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@wdio/utils/build/shim.js:276:24)
+                    at World.&lt;anonymous> (/Users/srikanthshantharam/Documents/homeloancalculator/test/step-definitions/steps.js:106:30)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I select property type "&lt;Property to buy>"</name>
+            <title>And I select property type "&lt;Property to buy>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter annual income "&lt;Annual Income>"</name>
+            <title>And I enter annual income "&lt;Annual Income>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter other income "&lt;Other Income>"</name>
+            <title>And I enter other income "&lt;Other Income>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter monthly living expense "&lt;Living Expenses>"</name>
+            <title>And I enter monthly living expense "&lt;Living Expenses>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter monthly home loan repayment "&lt;Home loan repay>"</name>
+            <title>And I enter monthly home loan repayment "&lt;Home loan repay>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter other loan repayment "&lt;other loan repay>"</name>
+            <title>And I enter other loan repayment "&lt;other loan repay>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter monthly commitments "&lt;monthly commitments>"</name>
+            <title>And I enter monthly commitments "&lt;monthly commitments>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I enter credit card limit "&lt;creditlimit>"</name>
+            <title>And I enter credit card limit "&lt;creditlimit>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>Then I click on how much I could borrow</name>
+            <title>Then I click on how much I could borrow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I verify the estimated borrow amount "&lt;borrowingestimate>"</name>
+            <title>And I verify the estimated borrow amount "&lt;borrowingestimate>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='undefined'>
+            <name>And I click on start over to clear all fields</name>
+            <title>And I click on start over to clear all fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646624458233' status='passed' stop='1646624458234'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

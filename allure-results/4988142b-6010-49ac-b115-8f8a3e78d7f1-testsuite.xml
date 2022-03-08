@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646608862634' stop='1646608862640'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1646608862634' status='passed' stop='1646608862635'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646608862635' status='broken' stop='1646608862639'>
+            <name>Given I am on the home loan borrowing page calculator</name>
+            <title>Given I am on the home loan borrowing page calculator</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: page is not defined</message>
+                <stack-trace>ReferenceError: page is not defined
+                    at World.&lt;anonymous> (/Users/srikanthshantharam/Documents/homeloancalculator/test/step-definitions/steps.js:13:9)
+                    at async Object.wrapPromiseWithTimeout (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/time.js:63:12)
+                    at async Object.run (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/user_code_runner.js:64:22)
+                    at async Object.run (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:48:26)
+                    at async TestCaseRunner.invokeStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:89:16)
+                    at async TestCaseRunner.runStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:229:26)
+                    at async /Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:155:48
+                    at async TestCaseRunner.aroundTestStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:113:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1646608862639' status='undefined'>
+            <name>When I enter deatils</name>
+            <title>When I enter deatils</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646608862639' status='undefined'>
+            <name>Then I click on how much I could borrow</name>
+            <title>Then I click on how much I could borrow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646608862639' status='passed' stop='1646608862640'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

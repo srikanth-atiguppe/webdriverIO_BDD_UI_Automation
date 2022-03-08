@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1646609829874' stop='1646609830935'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1646609829874' status='passed' stop='1646609829874'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646609829874' status='passed' stop='1646609830932'>
+            <name>Given I am on the home loan borrowing page calculator</name>
+            <title>Given I am on the home loan borrowing page calculator</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps>
+                <step start='1646609829875' status='passed' stop='1646609830932'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8a877422-867a-4ffd-8f69-48ca54c2f55c-attachment.json' type='application/json' size='88'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1646609830932' status='broken' stop='1646609830933'>
+            <name>When I enter deatils</name>
+            <title>When I enter deatils</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: thread is not defined</message>
+                <stack-trace>ReferenceError: thread is not defined
+                    at World.&lt;anonymous> (/Users/srikanthshantharam/Documents/homeloancalculator/test/step-definitions/steps.js:17:2)
+                    at async Object.wrapPromiseWithTimeout (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/time.js:63:12)
+                    at async Object.run (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/user_code_runner.js:64:22)
+                    at async Object.run (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:48:26)
+                    at async TestCaseRunner.invokeStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:89:16)
+                    at async TestCaseRunner.runStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:229:26)
+                    at async /Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:155:48
+                    at async TestCaseRunner.aroundTestStep (/Users/srikanthshantharam/Documents/homeloancalculator/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:113:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1646609830933' status='undefined'>
+            <name>Then I click on how much I could borrow</name>
+            <title>Then I click on how much I could borrow</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1646609830933' status='passed' stop='1646609830934'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.51'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

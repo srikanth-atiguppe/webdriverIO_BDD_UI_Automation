@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div[class='borrow__error__text']"
+}

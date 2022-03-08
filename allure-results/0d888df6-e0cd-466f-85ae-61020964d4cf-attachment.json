@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[text()[contains(.,\"Your annual other income (optional)\")]]/../div/./input"
+}
